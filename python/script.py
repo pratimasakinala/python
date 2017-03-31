@@ -58,6 +58,7 @@ true_values = True and 1 and 'text' and ['q', 'w'] and {'e':'r'}
 # print(fruits[-1]) # prints last item in fruits list
 # fruits.append('pineapple') # adds pineapple to fruits list (same as push in JS)
 # fruits.extend(['mango', 'strawberry']) # extends fruits list with another list
+# fruits.insert(1, 'cherry')
 # print(fruits)
 
 
@@ -76,3 +77,9 @@ person.update({
 # print(person.items())
 # print(person.get('favorite_color', 'blue')) # doesn't add to person dictionary
 # print(person)
+# del person['birthday'] # removes key and its value
+
+
+# ask user input:
+# num = raw_input('Enter a number')
+# print(num)
